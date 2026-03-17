@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
+    margin: 0
 }
 
 .white-card {
