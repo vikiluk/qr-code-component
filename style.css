@@ -7,24 +7,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100dvh;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
-    margin: 0
+    margin: 0;
 }
 
 .white-card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
-    width:19rem;
-    height: 27.1rem;
-    padding: 2rem 1rem 2rem 1rem;
-    overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 20rem;
+    aspect-ratio: 19 / 27.1;
+    min-width: 12rem;
+    box-sizing: border-box;
+    margin: 1.25rem;
 }
 
-img {
+.card__image {
     width: 100%;
     border-radius: 0.625rem;
     display: block;
@@ -39,9 +40,11 @@ img {
 
 figure {
     margin: 0;
+    padding: 2rem 1rem 0 1rem;
 }
 
-h1 {
+
+h2 {
     font-size: 22px;
     font-weight: 700;
     text-align: center;
@@ -55,6 +58,7 @@ p {
     color: hsl(220, 15%, 48%);
     text-align: center;
     margin-top: 1.25rem;
+    margin-bottom: 50rem;
     padding: 0 1rem 0 1rem;
     letter-spacing: 0.2px;
 }
