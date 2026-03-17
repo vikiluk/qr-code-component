@@ -38,11 +38,12 @@ figure {
 }
 
 h1 {
-    font-size: 1.37rem;;
+    font-size: 1.21rem;;
     font-weight: 700;
     text-align: center;
     color: hsl(218, 44%, 22%);
-    padding: 0.5rem 0 0 0;
+    padding: 0.8rem 0 0 0;
+    letter-spacing: 0.0125em;
 }
 
 p {
