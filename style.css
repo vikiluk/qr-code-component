@@ -10,7 +10,6 @@ body {
     min-height: 100dvh;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
-    color: hsl(218, 44%, 22%);
     margin: 0;
 }
 
@@ -44,12 +43,13 @@ figure {
     padding: 2rem 1rem 0 1rem;
 }
 
-h1 {
-    font-size: 21px;
+.card-title {
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
     margin-top: 1.25rem;
     padding: 0 1rem 0 1rem;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
