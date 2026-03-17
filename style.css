@@ -44,7 +44,7 @@ figure {
 }
 
 
-h2 {
+h1 {
     font-size: 22px;
     font-weight: 700;
     text-align: center;
@@ -58,7 +58,6 @@ p {
     color: hsl(220, 15%, 48%);
     text-align: center;
     margin-top: 1.25rem;
-    margin-bottom: 50rem;
     padding: 0 1rem 0 1rem;
     letter-spacing: 0.2px;
 }
