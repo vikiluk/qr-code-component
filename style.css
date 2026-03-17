@@ -16,7 +16,7 @@ body {
 .white-card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
-    width:17.4rem;
+    width:17.6rem;
     padding: 2rem 1rem 2rem 1rem;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
