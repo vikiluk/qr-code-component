@@ -44,7 +44,7 @@ figure {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 1.3rem;;
     font-weight: 700;
     text-align: center;
     margin-top: 1.25rem;
@@ -53,7 +53,7 @@ h1 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     color: hsl(220, 15%, 48%);
     text-align: center;
