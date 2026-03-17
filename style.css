@@ -41,9 +41,8 @@ h1 {
     font-size: 1.37rem;;
     font-weight: 700;
     text-align: center;
-    padding: 0 1rem 0 1rem;
     color: hsl(218, 44%, 22%);
-    padding: 0.4rem 0 0 0;
+    padding: 0.5rem 0 0 0;
 }
 
 p {
@@ -53,5 +52,5 @@ p {
     text-align: center;
     margin-top: 1.25rem;
     padding: 0 1rem 2.5rem 1rem;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.0125em;
 }
