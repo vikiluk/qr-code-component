@@ -1,40 +1,47 @@
+:root {
+    font-size: 16px;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     flex-direction: column;
-    overflow: hidden;
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
 }
 
 .white-card {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
-    width: 320px;
-    height: 500px;
-    padding: 16px 16px 40px 16px;
+    border-radius: 1.25rem;
+    width: 20rem;
+    padding: 1rem 1rem 2rem 1rem;
+    overflow: hidden;
 }
 
 img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
+}
+
+figure {
+    margin: 0;
 }
 
 h1 {
     font-size: 22px;
     font-weight: 700;
     text-align: center;
-    padding: 16px 16px 0px 16px;
-    line-height: 120%;
+    margin-top: 1.25rem;
+    padding: 0 1rem 0 1rem;
 }
 
 p {
@@ -42,8 +49,7 @@ p {
     font-weight: 400;
     color: hsl(220, 15%, 48%);
     text-align: center;
-    margin-top: 20px;
-    padding: 0 16px 0px 16px;
-    line-height: 140%;
+    margin-top: 1.25rem;
+    padding: 0 1rem 0 1rem;
     letter-spacing: 0.2px;
 }
