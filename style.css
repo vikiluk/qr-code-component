@@ -18,8 +18,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
     width:20rem;
-    height: 27.1rem;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 2.5rem 1rem;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
@@ -28,9 +27,8 @@ img {
     width: 100%;
     border-radius: 0.625rem;
     display: block;
-    margin-top: -5%;
+    margin: auto;
 }
-
 
 .attribution {
     font-size: 11px;
